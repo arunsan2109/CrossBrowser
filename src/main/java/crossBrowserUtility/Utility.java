@@ -35,7 +35,7 @@ public class Utility {
 			} else if (browserName.equalsIgnoreCase("firefox")) {
 
 				System.setProperty("webdriver.gecko.driver", ".\\src\\main\\resources\\geckodriverNew.exe");
-				DesiredCapabilities capabilities=DesiredCapabilities.firefox();
+				DesiredCapabilities capabilities = DesiredCapabilities.firefox();
 				capabilities.setCapability("marionette", true);
 				driver = new FirefoxDriver(capabilities);
 				driver.get(url);
@@ -75,7 +75,7 @@ public class Utility {
 	public static void getCloseBrowser() {
 		try {
 			driver.quit();
-			//Runtime.getRuntime().exec("taskkill /F /IM IEDriverServer.exe");
+			// Runtime.getRuntime().exec("taskkill /F /IM IEDriverServer.exe");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

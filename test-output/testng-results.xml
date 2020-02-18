@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="33941" started-at="2020-02-18T11:43:34Z" finished-at="2020-02-18T11:44:07Z">
+  <suite name="Suite" duration-ms="70353" started-at="2020-02-18T19:37:35Z" finished-at="2020-02-18T19:38:45Z">
     <groups>
     </groups>
-    <test name="FirefoxTest" duration-ms="15080" started-at="2020-02-18T11:43:34Z" finished-at="2020-02-18T11:43:49Z">
+    <test name="FirefoxTest" duration-ms="33914" started-at="2020-02-18T19:37:35Z" finished-at="2020-02-18T19:38:09Z">
       <class name="crossBrowserTests.VerifyTitle">
-        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:crossBrowserTests.VerifyTitle@77caeb3e]" name="openBrowser" is-config="true" duration-ms="9752" started-at="2020-02-18T17:13:34Z" finished-at="2020-02-18T17:13:43Z">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:crossBrowserTests.VerifyTitle@77caeb3e]" name="openBrowser" is-config="true" duration-ms="26386" started-at="2020-02-19T01:07:35Z" finished-at="2020-02-19T01:08:01Z">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:crossBrowserTests.VerifyTitle@77caeb3e]" name="verifyTitle" duration-ms="5310" started-at="2020-02-18T17:13:43Z" finished-at="2020-02-18T17:13:49Z">
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:crossBrowserTests.VerifyTitle@77caeb3e]" name="verifyTitle" duration-ms="7375" started-at="2020-02-19T01:08:01Z" finished-at="2020-02-19T01:08:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:crossBrowserTests.VerifyTitle@77caeb3e]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-02-18T17:13:49Z" finished-at="2020-02-18T17:13:49Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:crossBrowserTests.VerifyTitle@77caeb3e]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-02-19T01:08:09Z" finished-at="2020-02-19T01:08:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- crossBrowserTests.VerifyTitle -->
     </test> <!-- FirefoxTest -->
-    <test name="IETest" duration-ms="5521" started-at="2020-02-18T11:43:49Z" finished-at="2020-02-18T11:43:54Z">
+    <test name="IETest" duration-ms="19116" started-at="2020-02-18T19:38:10Z" finished-at="2020-02-18T19:38:29Z">
       <class name="crossBrowserTests.VerifyTitle">
-        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:crossBrowserTests.VerifyTitle@204f30ec]" name="openBrowser" is-config="true" duration-ms="4722" started-at="2020-02-18T17:13:49Z" finished-at="2020-02-18T17:13:53Z">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:crossBrowserTests.VerifyTitle@204f30ec]" name="openBrowser" is-config="true" duration-ms="18237" started-at="2020-02-19T01:08:10Z" finished-at="2020-02-19T01:08:28Z">
           <params>
             <param index="0">
               <value>
@@ -41,19 +41,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:crossBrowserTests.VerifyTitle@204f30ec]" name="verifyTitle" duration-ms="793" started-at="2020-02-18T17:13:53Z" finished-at="2020-02-18T17:13:54Z">
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:crossBrowserTests.VerifyTitle@204f30ec]" name="verifyTitle" duration-ms="873" started-at="2020-02-19T01:08:28Z" finished-at="2020-02-19T01:08:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:crossBrowserTests.VerifyTitle@204f30ec]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-02-18T17:13:54Z" finished-at="2020-02-18T17:13:54Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:crossBrowserTests.VerifyTitle@204f30ec]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-02-19T01:08:29Z" finished-at="2020-02-19T01:08:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- crossBrowserTests.VerifyTitle -->
     </test> <!-- IETest -->
-    <test name="ChromeTest" duration-ms="13273" started-at="2020-02-18T11:43:54Z" finished-at="2020-02-18T11:44:07Z">
+    <test name="ChromeTest" duration-ms="15991" started-at="2020-02-18T19:38:29Z" finished-at="2020-02-18T19:38:45Z">
       <class name="crossBrowserTests.VerifyTitle">
-        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:crossBrowserTests.VerifyTitle@f6c48ac]" name="openBrowser" is-config="true" duration-ms="7824" started-at="2020-02-18T17:13:54Z" finished-at="2020-02-18T17:14:02Z">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:crossBrowserTests.VerifyTitle@f6c48ac]" name="openBrowser" is-config="true" duration-ms="11080" started-at="2020-02-19T01:08:29Z" finished-at="2020-02-19T01:08:40Z">
           <params>
             <param index="0">
               <value>
@@ -64,11 +64,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:crossBrowserTests.VerifyTitle@f6c48ac]" name="verifyTitle" duration-ms="5447" started-at="2020-02-18T17:14:02Z" finished-at="2020-02-18T17:14:07Z">
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:crossBrowserTests.VerifyTitle@f6c48ac]" name="verifyTitle" duration-ms="4908" started-at="2020-02-19T01:08:40Z" finished-at="2020-02-19T01:08:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:crossBrowserTests.VerifyTitle@f6c48ac]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-02-18T17:14:07Z" finished-at="2020-02-18T17:14:07Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:crossBrowserTests.VerifyTitle@f6c48ac]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-02-19T01:08:45Z" finished-at="2020-02-19T01:08:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

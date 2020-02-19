@@ -1,3 +1,9 @@
+/**
+* Utility class for re-usable functions
+*
+* @author  Arun Singh, Rahul Pandey, Shikha Arora 
+*/
+
 package crossBrowserUtility;
 
 import org.openqa.selenium.WebDriver;
@@ -6,13 +12,17 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
+
+/*
+ * Utility class for re-usable functions
+ */
 public class Utility {
 
 	static WebDriver driver;
 	static String scenarioName;
 
 	/*
-	 * Driver initiation
+	 * Constructor to initiate the driver
 	 */
 	public Utility(WebDriver driver) {
 		Utility.driver = driver;
@@ -21,6 +31,7 @@ public class Utility {
 	/*
 	 * Function to initiate the browser Internet Explorer, Firefox, Chrome
 	 */
+	@SuppressWarnings("deprecation")
 	public static WebDriver getBrowser(String browserName, String url) {
 
 		try {
@@ -29,8 +40,8 @@ public class Utility {
 				DesiredCapabilities caps = DesiredCapabilities.internetExplorer();
 				caps.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
 				WebDriver driver = new InternetExplorerDriver(caps);
-				// driver = new InternetExplorerDriver();
 				driver.get(url);
+				Thread.sleep(2000);
 				return driver;
 			} else if (browserName.equalsIgnoreCase("firefox")) {
 
@@ -39,6 +50,7 @@ public class Utility {
 				capabilities.setCapability("marionette", true);
 				driver = new FirefoxDriver(capabilities);
 				driver.get(url);
+				Thread.sleep(2000);
 				return driver;
 
 			} else
@@ -46,6 +58,7 @@ public class Utility {
 				System.setProperty("webdriver.chrome.driver", ".\\src\\main\\resources\\chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.get(url);
+			Thread.sleep(2000);
 			return driver;
 
 		} catch (Exception e) {
